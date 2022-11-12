@@ -3,6 +3,7 @@
 //A path may start and end at any two nodes. 
 //The length of a path is considered the number of edges in the path, not the number of nodes.
 
+//My brute force solution.
 const longestPath = (graph) => {
   const visited = new Set()
   let maxLength = -Infinity
