@@ -12,3 +12,21 @@ const reverseList = (head, prev = null) => {
 
 //Time: O(N)
 //Space: O(N)
+
+const reverseList2 = (head) => {
+  let current = head;
+
+  let prev = null;
+
+  while (current !== null) {
+    const next = current.next;
+    current.next = prev;
+    prev = current;
+    current = next;
+  }
+
+  return prev;
+}
+
+//Time: O(N)
+//Space: O(1)
