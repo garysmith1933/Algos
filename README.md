@@ -1,1 +1,1 @@
-# StructyAlgos
+# Algos
