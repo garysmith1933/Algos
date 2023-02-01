@@ -26,5 +26,6 @@ def depth_first_values(root):
   
 #   return values
 
- # Time: O(N)
-  # Space: O(N)
+# n  = number of nodes
+# Time: O(N)
+# Space: O(N)
